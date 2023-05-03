@@ -1,0 +1,11 @@
+select id, occurred_at, total_amt_usd from orders
+order by occurred_at
+limit 10 
+
+select id, account_id, total_amt_usd from orders
+order by total_amt-usd desc
+limit 5
+
+select id, account_id, total_amt_usd from orders
+order by total_amt-usd
+limit 20 
